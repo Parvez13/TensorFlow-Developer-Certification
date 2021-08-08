@@ -24,7 +24,7 @@ The main aim of the course is "HOW TO PASS TENSORFLOW DEVELOPER CERTIFICATION"
  **Better reasone**: *For a complex problem, can you think of all the rules?*
  *"If you can build a **simple rule-based)**(maybe not very simple.)system that doesn't require machine learning, do that"*
  
- ![Rules of ML by Google](https://developers.google.com/machine-learning/guides/rules-of-ml)
+ [Rules of ML by Google](https://developers.google.com/machine-learning/guides/rules-of-ml)
  
  **3. What deep learning is good for**
 
@@ -155,4 +155,158 @@ The main aim of the course is "HOW TO PASS TENSORFLOW DEVELOPER CERTIFICATION"
 
 **Notebook**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/01_neural_network_regression_with_tensorflow_video.ipynb
 
+### MyKeyTakeaways
+
+#### Evaluating a model
+- [Trainable Params](https://deeplizard.com/learn/video/8d-9SnGt5E0)
+- [Intro To DeepLearning](http://introtodeeplearning.com/)
+
+**Regression Evaluation Metrics**
+- Mean absolute error(MAE)
+- Mean square error(MSE)
+- Huber
+
+[Preprocessing Data](https://medium.com/@urvashilluniya/why-data-normalization-is-necessary-for-machine-learning-models-681b65a05029)
+
+[Standardize Data](https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02)
+
+# 2 - Neural Network Classification With TensorFlow
+
+* Learn how to diagnose a classification problem (predicting whether something is one thing or another)
+
+* Build, compile & train machine learning classification models using TensorFlow
+
+* Build and train models for binary and multi-class classification
+
+* Plot modelling performance metrics against each other
+
+* Match input (training data shape) and output shapes (prediction data target)
+
+**Notebook**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/02_neural_network_classification_with_tensorflow_video.ipynb
+
+### MyKeyTakeAways
+
+- http://karpathy.github.io/2019/04/25/recipe/
+- https://www.ritchieng.com/
+- https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html
+- https://numpy.org/doc/stable/reference/generated/numpy.c_.html
+- https://cs231n.github.io/neural-networks-case-study/
+
+**Classification Evaluation Metrics**
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+# 3 -  Computer Vision and Convolutional Neural Networks with TensorFlow
+
+* Build convolutional neural networks with Conv2D and pooling layers
+
+* Learn how to diagnose different kinds of computer vision problems
+
+* Learn to how to build computer vision neural networks
+
+* Learn how to use real-world images with your computer vision models
+
+**Notebook**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/03_introduction_to_computers_vision_with_tensorflow_video.ipynb
+
+### MyKeyTakeAways
+
+- https://poloclub.github.io/cnn-explainer/
+
+# 4 - Transfer Learning with TensorFlow Part 1: Feature Extraction
+
+* Learn how to use pre-trained models to extract features from your own data
+
+* Learn how to use TensorFlow Hub for pre-trained models
+
+* Learn how to use TensorBoard to compare the performance of several different models
+
+**Notebook**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/04_transfer_learning_in_tensorflow_part_1_feature_extraction.ipynb
+
+### MyKeyTakeAways
+
+**What is transfer learning?**
+
+Surely someone has spent the time crafting the right model for the job
+
+Leverage our work, we will adapt the model which has already built on it like IMAGENET and use it on our model.
+
+**Why use transfer learning?**
+
+- Can leverage an existing neural network architecture proven to work on problems similar to our own.
+- Can leverage a working network architecture which has already learned patterns on similar data to our own (often results in great results with less data)
+
+**What are callbacks?**
+
+- Callbacks are a tool which can add helpful functionality to your models during training, evaluation or inference.
+- Some popular callbacks include:
+
+![2021-07-19 (2)](https://user-images.githubusercontent.com/66157611/128628547-404c0a65-080d-49b6-9930-756a5cc10dec.png)
+
+**What is TensorFlow Hub?**
+
+- A place to find a plethora of pre-trained machine learning models (ready to be applied adn fine-tuned for your own problems)
+
+![2021-07-20](https://user-images.githubusercontent.com/66157611/128628577-55d84449-8270-4c8b-82be-43b7d6ad1858.png)
+![2021-07-20 (1)](https://user-images.githubusercontent.com/66157611/128628580-8e82a996-c9a2-4c03-95fe-0ca5763868b0.png)
+
+# 5 — Transfer Learning with TensorFlow Part 2: Fine-tuning
+
+* Learn how to setup and run several machine learning experiments
+
+* Learn how to use data augmentation to increase the diversity of your training data
+
+* Learn how to fine-tune a pre-trained model to your own custom problem
+
+* Learn how to use Callbacks to add functionality to your model during training
+
+**Notebook**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/05_transfer_learning_in_tensorflow_part_2_fine_tuning.ipynb
+
+### MyKeyTakeAways
+
+![2021-07-21](https://user-images.githubusercontent.com/66157611/128628646-b4234b9a-1660-4762-b419-744df660da21.png)
+
+**What is a feature vector?**
+* *A feature vector is **a learned representation of the input data**(a compresed form of the input data based on how the model see's it).
+
+![2021-07-22 (2)](https://user-images.githubusercontent.com/66157611/128628700-202b183d-37b6-4590-b7f9-6fbd155c0084.png)
+
+# 6 — Transfer Learning with TensorFlow Part 3: Scaling Up (Food Vision mini)
+
+* Learn how to scale up an existing model
+
+* Learn to how evaluate your machine learning models by finding the most wrong predictions
+
+* Beat the original Food101 paper using only 10% of the data
+
+**Notebook**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/06_transfer_learning_in_tensorflow_part_3_scaling_up_video.ipynb
+
+### MyKeyTakeAways
+
+![2021-07-26](https://user-images.githubusercontent.com/66157611/128628782-6e4d7059-ee09-4094-9da7-37d8308ec790.png)
+![2021-07-28](https://user-images.githubusercontent.com/66157611/128628795-a130634c-b3e2-446a-b11a-bc8a8b431afa.png)
+
+
+# 7 — Milestone Project 1: Food Vision
+
+* Combine everything you've learned in the previous 6 notebooks to build Food Vision: a computer vision model able to classify 101 different kinds of foods. Our model well and truly beats the original Food101 paper.
+
+**Notebooks**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/07_milestone_project_1_food_vision_video.ipynb
+
+### MyKeyTakeAways
+
+**What is TensorFlow Datasets(TFDS)?**
+
+**TensorFlow Datasets** is a place for prepared and ready-to-use machine learning datasets.
+* Why use TensorFlow Datasets?
+   * Load data already in tensor format.
+   * Practice on well established datasets(for many different problem types)
+   * Experiment with different modelling techniques on a consistent datasets
+   
+**Why not use TensorFlow Datasets?**
+* Datasets are static (do not change like  real-world datasets).
+
+![2021-07-31](https://user-images.githubusercontent.com/66157611/128628944-d2d0635c-1bc5-4f3a-a121-6647d0c728b8.png)
 
