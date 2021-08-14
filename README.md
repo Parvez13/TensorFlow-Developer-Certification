@@ -293,7 +293,7 @@ Leverage our work, we will adapt the model which has already built on it like IM
 
 * Combine everything you've learned in the previous 6 notebooks to build Food Vision: a computer vision model able to classify 101 different kinds of foods. Our model well and truly beats the original Food101 paper.
 
-**Notebooks**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/07_milestone_project_1_food_vision_video.ipynb
+**Notebook**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/07_milestone_project_1_food_vision_video.ipynb
 
 ### MyKeyTakeAways
 
@@ -310,3 +310,37 @@ Leverage our work, we will adapt the model which has already built on it like IM
 
 ![2021-07-31](https://user-images.githubusercontent.com/66157611/128628944-d2d0635c-1bc5-4f3a-a121-6647d0c728b8.png)
 
+# 8- NLP Fundamentals in TensorFlow
+* Learn to:
+
+     * Preprocess natural language text to be used with a neural network
+
+     * Create word embeddings (numerical representations of text) with TensorFlow
+
+     * Build neural networks capable of binary and multi-class classification using:
+
+              *  RNNs (recurrent neural networks)
+
+              *  LSTMs (long short-term memory cells)
+
+              *  GRUs (gated recurrent units)
+
+              * CNNs
+
+* Learn how to evaluate your NLP models
+
+**Notebook**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/08_introduction_to_nlp_in_tensorflow.ipynb
+
+### MyKeyTakeAways
+
+* [How to Read Files in Python](https://realpython.com/read-write-files-python/ )
+* [Working With JSON Files in Python](https://realpython.com/python-json/)
+* [RNN from MIT](https://www.youtube.com/watch?v=SEnXr6v2ifU)
+* http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+* https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+* https://stackoverflow.com/questions/38080035/how-to-calculate-the-number-of-parameters-of-an-lstm-network
+* https://medium.com/@priyadarshi.cse/calculating-number-of-parameters-in-a-lstm-unit-layer-7e491978e1e4
+* https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be
+* https://en.wikipedia.org/wiki/Gated_recurrent_unit
+* [Understanding Convolutional Neural Networks in Text classification](https://aclanthology.org/W18-5408.pdf)
+* [Universal Sentence Encoder](https://aclanthology.org/D18-2029.pdf)
