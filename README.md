@@ -143,6 +143,7 @@ The main aim of the course is "HOW TO PASS TENSORFLOW DEVELOPER CERTIFICATION"
 
 > 🔑**Note:** One of the main differences between a TensorFlow tensor and a NumPy array is that a Tensor can be run on GPU or TPU (for faster numerical processing).
 
+*****************************************************************************************************************************************************************************************
 # 1 - Neural Network Regression With TensorFlow
 
 * Build TensorFlow sequential models with multiple layers
@@ -169,6 +170,8 @@ The main aim of the course is "HOW TO PASS TENSORFLOW DEVELOPER CERTIFICATION"
 [Preprocessing Data](https://medium.com/@urvashilluniya/why-data-normalization-is-necessary-for-machine-learning-models-681b65a05029)
 
 [Standardize Data](https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02)
+
+****************************************************************************************************************************************************************************************
 
 # 2 - Neural Network Classification With TensorFlow
 
@@ -199,6 +202,8 @@ The main aim of the course is "HOW TO PASS TENSORFLOW DEVELOPER CERTIFICATION"
 - F1-score
 - Confusion Matrix
 
+****************************************************************************************************************************************************************************************
+
 # 3 -  Computer Vision and Convolutional Neural Networks with TensorFlow
 
 * Build convolutional neural networks with Conv2D and pooling layers
@@ -214,6 +219,8 @@ The main aim of the course is "HOW TO PASS TENSORFLOW DEVELOPER CERTIFICATION"
 ### MyKeyTakeAways
 
 - https://poloclub.github.io/cnn-explainer/
+
+*****************************************************************************************************************************************************************************************
 
 # 4 - Transfer Learning with TensorFlow Part 1: Feature Extraction
 
@@ -252,6 +259,9 @@ Leverage our work, we will adapt the model which has already built on it like IM
 ![2021-07-20](https://user-images.githubusercontent.com/66157611/128628577-55d84449-8270-4c8b-82be-43b7d6ad1858.png)
 ![2021-07-20 (1)](https://user-images.githubusercontent.com/66157611/128628580-8e82a996-c9a2-4c03-95fe-0ca5763868b0.png)
 
+*****************************************************************************************************************************************************************************************
+
+
 # 5 — Transfer Learning with TensorFlow Part 2: Fine-tuning
 
 * Learn how to setup and run several machine learning experiments
@@ -273,6 +283,8 @@ Leverage our work, we will adapt the model which has already built on it like IM
 
 ![2021-07-22 (2)](https://user-images.githubusercontent.com/66157611/128628700-202b183d-37b6-4590-b7f9-6fbd155c0084.png)
 
+****************************************************************************************************************************************************************************************
+
 # 6 — Transfer Learning with TensorFlow Part 3: Scaling Up (Food Vision mini)
 
 * Learn how to scale up an existing model
@@ -288,6 +300,7 @@ Leverage our work, we will adapt the model which has already built on it like IM
 ![2021-07-26](https://user-images.githubusercontent.com/66157611/128628782-6e4d7059-ee09-4094-9da7-37d8308ec790.png)
 ![2021-07-28](https://user-images.githubusercontent.com/66157611/128628795-a130634c-b3e2-446a-b11a-bc8a8b431afa.png)
 
+*****************************************************************************************************************************************************************************************
 
 # 7 — Milestone Project 1: Food Vision
 
@@ -309,6 +322,8 @@ Leverage our work, we will adapt the model which has already built on it like IM
 * Datasets are static (do not change like  real-world datasets).
 
 ![2021-07-31](https://user-images.githubusercontent.com/66157611/128628944-d2d0635c-1bc5-4f3a-a121-6647d0c728b8.png)
+
+*****************************************************************************************************************************************************************************************
 
 # 8- NLP Fundamentals in TensorFlow
 * Learn to:
