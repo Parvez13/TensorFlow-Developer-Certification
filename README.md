@@ -359,3 +359,16 @@ Leverage our work, we will adapt the model which has already built on it like IM
 * https://en.wikipedia.org/wiki/Gated_recurrent_unit
 * [Understanding Convolutional Neural Networks in Text classification](https://aclanthology.org/W18-5408.pdf)
 * [Universal Sentence Encoder](https://aclanthology.org/D18-2029.pdf)
+
+***************************************************************************************************************************************************************************************
+
+# 09 - Skimlet_nlp_milestone_project
+
+*     Replicate a the model which powers the PubMed 200k paper to classify different sequences in PubMed medical abstracts (which can help researchers read through medical abstracts faster)
+
+**Notebook**: https://github.com/Parvez13/TensorFlow-Developer-Certification/blob/master/09_SkimLit_nlp_milestone_project_2_video.ipynb
+
+### MyKeyTakeAways
+
+* [Betterperformance with tf.data](https://www.tensorflow.org/guide/data_performance)
+
